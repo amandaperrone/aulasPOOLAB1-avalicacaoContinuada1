@@ -1,10 +1,10 @@
 package com.example.ac1lab;
 
-import com.example.ac1lab.repository.PedidoRepository;
+//import com.example.ac1lab.repository.PedidoRepository;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+//import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Ac1LabApplication {
@@ -13,10 +13,12 @@ public class Ac1LabApplication {
 		SpringApplication.run(Ac1LabApplication.class, args);
 	}
 
+	/*  NÃO MAIS NECESSÁRIO POIS ADICIONADO @COMPONENT NA CLASSE PedidoRepository
 	// Acrescentado devido um erro na hora de iniciar o Spring-Boot
 	@Bean
 	public PedidoRepository pedidoRepository(){
 		return new PedidoRepository();
-	}
+	} 
+	*/
 
 }
